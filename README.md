@@ -2,7 +2,7 @@ Real-Time Weather Information & Data Logger
 ------------------------------------------------------------------------------------------
  A Python weather application that provides real-time weather information and data logging capabilities. The project is organized with a clear folder structure and uses SQLite for data storage.
  
- Features
+General / Positive Qualities
  -----------------------------------------------------------------------------------------
 * Real-time Weather Data: Fetches current weather information
 
@@ -18,7 +18,7 @@ Real-Time Weather Information & Data Logger
 ├── weather_app/       
 ├── weather_data.db
      
- Data Storage & Logging
+ Repository
 ------------------------------------------------------------------------------------------
 * SQLite Database used for lightweight, file-based storage
 
@@ -28,7 +28,7 @@ Real-Time Weather Information & Data Logger
 
 * Local file storage (weather_data.db) for portability
 
-User Experience
+User Encounter
 -----------------------------------------------------------------------------------------
 * Persistent History: Maintains complete query history across application sessions
 
@@ -38,7 +38,7 @@ User Experience
 
 * Error Resilience: Graceful handling of network issues and invalid inputs without crashes
 
-Error Handling
+Error Management 
 ------------------------------------------------------------------------------------------
 * Invalid API keys: Provides clear error messages
 
