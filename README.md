@@ -41,7 +41,8 @@ CREATE TABLE IF NOT EXISTS weather_logs (
                 weather_condition TEXT NOT NULL,
                 timestamp TEXT NOT NULL,
                 api_response TEXT NOT NULL
-            )```
+            )
+```
 
 data base:example of output
 --------------------------------------------------------------------------------------------
