@@ -46,6 +46,7 @@ CREATE TABLE IF NOT EXISTS weather_logs (
 
 data base:example of output
 --------------------------------------------------------------------------------------------
+```sql
 Main Menu:
 1. Check weather
 2. View history
@@ -73,6 +74,7 @@ Time: 2025-11-27 23:22:09
 Mumbai: 20.00°C, 80.0% humidity, 2.23 m/s wind
 Conditions: broken clouds
 Time: 2025-11-27 23:20:15
+```
 
 
 User Encounter
