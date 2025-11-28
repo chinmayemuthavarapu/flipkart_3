@@ -28,7 +28,7 @@ General / Positive Qualities
 
 * Local file storage (weather_data.db) for portability
 
-  Requirements
+ Requirements
   --------------------------------------------------------------------------------------
 - Python 3.6+
 - requests library
@@ -37,9 +37,9 @@ General / Positive Qualities
 ------------------------------------------------------------------------------------------
 1. Clone or download the project files
 2. Install required dependencies:
-   bash
+   ```sql bash
    pip install requests
-   
+   ```
 
 3. Get an API key from [OpenWeatherMap](https://openweathermap.org/api)
    - Sign up for a free account
