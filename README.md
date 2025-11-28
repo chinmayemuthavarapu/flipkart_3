@@ -28,6 +28,16 @@ General / Positive Qualities
 
 * Local file storage (weather_data.db) for portability
 
+ Database Architecture 
+ ----------------------------------------------------------------------------------------
+* SQLite Database used for lightweight, file-based storage
+
+* Single-table design with weather_data table
+
+* Automatic table creation on application initialization
+
+* Local file storage (weather_data.db) for portability
+
 User Encounter
 -----------------------------------------------------------------------------------------
 * Persistent History: Maintains complete query history across application sessions
@@ -49,3 +59,16 @@ Error Management
 * Database errors: Manages database connection issues
 
 * User input validation: Ensures proper input format
+
+ Support
+----------------------------------------------------------------------------------------- 
+Active internet connection
+
+Valid OpenWeatherMap API key
+
+Python 3.6+ installed
+
+Write permissions for database creation 
+
+
+ 
