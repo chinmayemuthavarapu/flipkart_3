@@ -30,13 +30,44 @@ General / Positive Qualities
 
  Database Architecture 
  ----------------------------------------------------------------------------------------
-* SQLite Database used for lightweight, file-based storage
+ CREATE TABLE logs (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    city TEXT NOT NULL,
+    temp REAL NOT NULL,
+    humidity INTEGER NOT NULL,
+    condition TEXT NOT NULL,
+    wind_speed REAL NOT NULL,
+    timestamp TEXT NOT NULL
+)
+data base:example of output
+Main Menu:
+1. Check weather
+2. View history
+3. Exit
+Enter your choice (1-3): 2
 
-* Single-table design with weather_data table
+== Recent Weather Queries ==
 
-* Automatic table creation on application initialization
+Paris: 32.21°C, 25.0% humidity, 2.4 m/s wind
+Condition: overcast clouds
+Time: 2025-11-27 23:48:11
 
-* Local file storage (weather_data.db) for portability
+London: 13.08°C, 90.0% humidity, 3.68 m/s wind
+Condition: overcast clouds
+Time: 2025-11-27 23:47:40
+
+Vancouver: 30.21°C, 86.0% humidity, 1.2 m/s wind
+Condition: broken clouds
+Time: 2025-11-27 23:37:55
+
+Tokyo: 32.72°C, 75.0% humidity, 3.68 m/s wind
+Conditions: broken clouds
+Time: 2025-11-27 23:22:09
+
+Mumbai: 20.00°C, 80.0% humidity, 2.23 m/s wind
+Conditions: broken clouds
+Time: 2025-11-27 23:20:15
+
 
 User Encounter
 -----------------------------------------------------------------------------------------
