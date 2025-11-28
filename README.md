@@ -30,15 +30,18 @@ General / Positive Qualities
 
  Database Architecture 
  ----------------------------------------------------------------------------------------
- CREATE TABLE logs (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    city TEXT NOT NULL,
-    temp REAL NOT NULL,
-    humidity INTEGER NOT NULL,
-    condition TEXT NOT NULL,
-    wind_speed REAL NOT NULL,
-    timestamp TEXT NOT NULL
-)
+  ```sql
+CREATE TABLE IF NOT EXISTS weather_logs (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                city_name TEXT NOT NULL,
+                temperature REAL NOT NULL,
+                humidity INTEGER NOT NULL,
+                pressure INTEGER NOT NULL,
+                wind_speed REAL NOT NULL,
+                weather_condition TEXT NOT NULL,
+                timestamp TEXT NOT NULL,
+                api_response TEXT NOT NULL
+            )```
 
 data base:example of output
 --------------------------------------------------------------------------------------------
