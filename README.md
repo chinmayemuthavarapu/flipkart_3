@@ -39,7 +39,9 @@ General / Positive Qualities
     wind_speed REAL NOT NULL,
     timestamp TEXT NOT NULL
 )
+
 data base:example of output
+--------------------------------------------------------------------------------------------
 Main Menu:
 1. Check weather
 2. View history
